@@ -74,12 +74,7 @@ function App() {
     })
   }
 
-  // const priorityhandler = (event)=>{
-  //   dispatchState({
-  //     ...state,
-  //     priority:event.target.value
-  //   })
-  // }
+
 
   const datehandler = (event)=>{
     dispatchState({
@@ -126,8 +121,6 @@ function App() {
                 <Label>Date</Label>
                 <Input type = 'text' value={state.date} onChange={datehandler}/>
               </Div>
-
-              
               <Div>
                 <Label>Category</Label>
                 <Input type = 'text' value={state.category} onChange={categoryhandler}/>
@@ -138,7 +131,7 @@ function App() {
               </Div>
             </form>
       </Card>
-      
+
          <TaskList users = {users} />
       </>
 
