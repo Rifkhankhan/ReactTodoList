@@ -1,0 +1,48 @@
+.button{
+    padding: 10px;
+    width: 130px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.button:hover{
+   cursor: pointer;
+   box-shadow: 1px 1px 8px black;
+}
+
+.button:active{
+    opacity: 0.5;
+}
+.delete{
+    color: white;
+    background-color: red;
+}
+.edit{
+    background-color: rgb(129, 153, 129);
+}
+.show{
+    color: wheat;
+    background-color: rgb(61, 26, 213);
+}
+.container
+{
+    display: block;
+}
+
+.first {
+    display: flex;
+    justify-content: space-evenly;
+    background: aqua;
+    font-weight: 700;
+
+}
+
+.first:nth-child(1){
+    color: red;
+}
+
+.first:nth-child(2){
+    color: blue;
+}
+
